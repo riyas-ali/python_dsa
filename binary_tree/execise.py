@@ -118,6 +118,11 @@ class BinaryNodeTree:
             self.data = min_value
             self.right = self.right.delete(min_value)
 
+            # Alternative soultion
+            # max_value = self.left.find_max()
+            # self.data = max_value
+            # self.left = self.left.delete(max_value)
+
         return self
     
 def build_tree(elements):
