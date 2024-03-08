@@ -50,4 +50,5 @@ numbers_list = [12, 15, 17, 19, 21, 24, 45, 67]
 number_to_find = 67
 
 index = binary_search_recursive(numbers_list, number_to_find, 0, len(numbers_list))
+print(len(numbers_list), 'items')
 print(f'Number found at index {index} using binary search recursive')
